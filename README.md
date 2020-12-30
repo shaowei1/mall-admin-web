@@ -16,7 +16,7 @@
 
 ### 项目演示
 
-项目在线演示地址：[http://www.macrozheng.com/admin/](http://www.macrozheng.com/admin/)  
+项目在线演示地址：[http://www.macrozheng.com/admin/](http://www.macrozheng.com/admin/)
 
 ![后台管理系统功能演示](http://img.macrozheng.com/mall/project/mall_admin_show.png)
 
@@ -53,6 +53,12 @@ src -- 源码目录
     ├── oms -- 订单模块页面
     ├── pms -- 商品模块页面
     └── sms -- 营销模块页面
+```
+
+## 本地启动
+```shell script
+npm config set registry "https://registry.npm.taobao.org/" && npm config set sass_binary_site=https://npm.taobao.org/mirrors/node-sass/ && npm install
+npm run dev
 ```
 
 ## 搭建步骤
